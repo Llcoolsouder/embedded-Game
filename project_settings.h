@@ -10,7 +10,7 @@
 
 #include "library.h"
 
-#define FCPU 16000000L
+#define FCPU 1048576
 
 #define USE_MODULE_TASK
 #define USE_MODULE_TIMING
@@ -22,10 +22,10 @@
 
 #define USE_MODULE_UART
 #define UART0_TX_BUFFER_LENGTH 512
-#define USE_UART1
+#define USE_UART3
 #define SUBSYSTEM_IO SUBSYSTEM_IO_UART
-#define SUBSYSTEM_UART 0
+#define SUBSYSTEM_UART 3
 
-#define TASK_MAX_LENGTH 50
+#define TASK_MAX_LENGTH 25
 
 #endif /* PROJECT_SETTINGS_H_ */

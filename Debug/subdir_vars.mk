@@ -16,6 +16,7 @@ C_SRCS += \
 ../list.c \
 ../lonnie_game.c \
 ../main.c \
+../random_int.c \
 ../strcasecmp.c \
 ../subsystem.c \
 ../task.c \
@@ -31,6 +32,7 @@ C_DEPS += \
 ./list.d \
 ./lonnie_game.d \
 ./main.d \
+./random_int.d \
 ./strcasecmp.d \
 ./subsystem.d \
 ./task.d \
@@ -46,6 +48,7 @@ OBJS += \
 ./list.obj \
 ./lonnie_game.obj \
 ./main.obj \
+./random_int.obj \
 ./strcasecmp.obj \
 ./subsystem.obj \
 ./task.obj \
@@ -61,6 +64,7 @@ OBJS__QUOTED += \
 "list.obj" \
 "lonnie_game.obj" \
 "main.obj" \
+"random_int.obj" \
 "strcasecmp.obj" \
 "subsystem.obj" \
 "task.obj" \
@@ -76,6 +80,7 @@ C_DEPS__QUOTED += \
 "list.d" \
 "lonnie_game.d" \
 "main.d" \
+"random_int.d" \
 "strcasecmp.d" \
 "subsystem.d" \
 "task.d" \
@@ -91,6 +96,7 @@ C_SRCS__QUOTED += \
 "../list.c" \
 "../lonnie_game.c" \
 "../main.c" \
+"../random_int.c" \
 "../strcasecmp.c" \
 "../subsystem.c" \
 "../task.c" \

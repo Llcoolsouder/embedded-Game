@@ -4,7 +4,7 @@
 
 SHELL = cmd.exe
 
-CG_TOOL_ROOT := E:/ti/ccs900/ccs/tools/compiler/ti-cgt-msp430_18.12.1.LTS
+CG_TOOL_ROOT := C:/ti/ccs900/ccs/tools/compiler/ti-cgt-msp430_18.12.1.LTS
 
 GEN_OPTS__FLAG := 
 GEN_CMDS__FLAG := 
@@ -17,6 +17,7 @@ ORDERED_OBJS += \
 "./list.obj" \
 "./lonnie_game.obj" \
 "./main.obj" \
+"./random_int.obj" \
 "./strcasecmp.obj" \
 "./subsystem.obj" \
 "./task.obj" \
@@ -154,22 +155,22 @@ all: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 msp430fr5994-game.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 	@echo 'Building target: "$@"'
 	@echo 'Invoking: MSP430 Linker'
-	"E:/ti/ccs900/ccs/tools/compiler/ti-cgt-msp430_18.12.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=full --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"msp430fr5994-game.map" --heap_size=500 --stack_size=160 --cinit_hold_wdt=on -i"E:/ti/ccs900/ccs/ccs_base/msp430/include" -i"E:/ti/ccs900/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"E:/ti/ccs900/ccs/ccs_base/msp430/lib/FR59xx" -i"E:/ti/ccs900/ccs/tools/compiler/ti-cgt-msp430_18.12.1.LTS/lib" -i"E:/ti/ccs900/ccs/tools/compiler/ti-cgt-msp430_18.12.1.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="msp430fr5994-game_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "msp430fr5994-game.out" $(ORDERED_OBJS)
+	"C:/ti/ccs900/ccs/tools/compiler/ti-cgt-msp430_18.12.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power="all" --advice:hw_config="all" --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"msp430fr5994-game.map" --heap_size=320 --stack_size=100 --cinit_hold_wdt=on -i"C:/ti/ccs900/ccs/ccs_base/msp430/include" -i"C:/ti/ccs900/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs900/ccs/ccs_base/msp430/lib/FR59xx" -i"C:/ti/ccs900/ccs/tools/compiler/ti-cgt-msp430_18.12.1.LTS/lib" -i"C:/ti/ccs900/ccs/tools/compiler/ti-cgt-msp430_18.12.1.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="msp430fr5994-game_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "msp430fr5994-game.out" $(ORDERED_OBJS)
 	@echo 'Finished building target: "$@"'
 	@echo ' '
 
 msp430fr5994-game.hex: $(EXE_OUTPUTS)
 	@echo 'Building files: $(strip $(EXE_OUTPUTS__QUOTED))'
 	@echo 'Invoking: MSP430 Hex Utility'
-	"E:/ti/ccs900/ccs/tools/compiler/ti-cgt-msp430_18.12.1.LTS/bin/hex430" --memwidth=8 --romwidth=8 -o "msp430fr5994-game.hex" $(EXE_OUTPUTS__QUOTED)
+	"C:/ti/ccs900/ccs/tools/compiler/ti-cgt-msp430_18.12.1.LTS/bin/hex430" --memwidth=8 --romwidth=8 -o "msp430fr5994-game.hex" $(EXE_OUTPUTS__QUOTED)
 	@echo 'Finished building: $(strip $(EXE_OUTPUTS__QUOTED))'
 	@echo ' '
 
 # Other Targets
 clean:
 	-$(RM) $(BIN_OUTPUTS__QUOTED)$(EXE_OUTPUTS__QUOTED)
-	-$(RM) "buffer.obj" "buffer_printf.obj" "game.obj" "hal_uart.obj" "list.obj" "lonnie_game.obj" "main.obj" "strcasecmp.obj" "subsystem.obj" "task.obj" "terminal.obj" "timing.obj" "uart.obj" 
-	-$(RM) "buffer.d" "buffer_printf.d" "game.d" "hal_uart.d" "list.d" "lonnie_game.d" "main.d" "strcasecmp.d" "subsystem.d" "task.d" "terminal.d" "timing.d" "uart.d" 
+	-$(RM) "buffer.obj" "buffer_printf.obj" "game.obj" "hal_uart.obj" "list.obj" "lonnie_game.obj" "main.obj" "random_int.obj" "strcasecmp.obj" "subsystem.obj" "task.obj" "terminal.obj" "timing.obj" "uart.obj" 
+	-$(RM) "buffer.d" "buffer_printf.d" "game.d" "hal_uart.d" "list.d" "lonnie_game.d" "main.d" "random_int.d" "strcasecmp.d" "subsystem.d" "task.d" "terminal.d" "timing.d" "uart.d" 
 	-@echo 'Finished clean'
 	-@echo ' '
 
