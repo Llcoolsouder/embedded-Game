@@ -1,0 +1,29 @@
+game.obj: E:/Users/Lonnie\\ II/Desktop/School/EmbeddedSoftware/embedded-software/src/games/game.c
+game.obj: E:/ti/ccs900/ccs/tools/compiler/ti-cgt-msp430_18.12.1.LTS/include/strings.h
+game.obj: E:/ti/ccs900/ccs/tools/compiler/ti-cgt-msp430_18.12.1.LTS/include/string.h
+game.obj: E:/ti/ccs900/ccs/tools/compiler/ti-cgt-msp430_18.12.1.LTS/include/_ti_config.h
+game.obj: E:/ti/ccs900/ccs/tools/compiler/ti-cgt-msp430_18.12.1.LTS/include/linkage.h
+game.obj: E:/ti/ccs900/ccs/tools/compiler/ti-cgt-msp430_18.12.1.LTS/include/sys/cdefs.h
+game.obj: E:/Users/lonni/workspace_v9/msp430fr5994-game/project_settings.h
+game.obj: E:/Users/Lonnie\\ II/Desktop/School/EmbeddedSoftware/embedded-software/include/library.h
+game.obj: E:\Users\Lonnie\\ II\Desktop\School\EmbeddedSoftware\embedded-software\include\macros.h
+game.obj: E:\Users\Lonnie\\ II\Desktop\School\EmbeddedSoftware\embedded-software\include\int_def.h
+game.obj: E:/ti/ccs900/ccs/tools/compiler/ti-cgt-msp430_18.12.1.LTS/include/stdint.h
+game.obj: E:/ti/ccs900/ccs/tools/compiler/ti-cgt-msp430_18.12.1.LTS/include/_stdint40.h
+game.obj: E:/ti/ccs900/ccs/tools/compiler/ti-cgt-msp430_18.12.1.LTS/include/sys/stdint.h
+game.obj: E:/ti/ccs900/ccs/tools/compiler/ti-cgt-msp430_18.12.1.LTS/include/sys/_types.h
+game.obj: E:/ti/ccs900/ccs/tools/compiler/ti-cgt-msp430_18.12.1.LTS/include/machine/_types.h
+game.obj: E:/ti/ccs900/ccs/tools/compiler/ti-cgt-msp430_18.12.1.LTS/include/machine/_stdint.h
+game.obj: E:/ti/ccs900/ccs/tools/compiler/ti-cgt-msp430_18.12.1.LTS/include/sys/_stdint.h
+game.obj: E:/Users/Lonnie\\ II/Desktop/School/EmbeddedSoftware/embedded-software/include/game.h
+game.obj: E:\Users\Lonnie\\ II\Desktop\School\EmbeddedSoftware\embedded-software\include\terminal.h
+game.obj: E:/Users/Lonnie\\ II/Desktop/School/EmbeddedSoftware/embedded-software/include/uart.h
+game.obj: E:/ti/ccs900/ccs/tools/compiler/ti-cgt-msp430_18.12.1.LTS/include/stdbool.h
+game.obj: E:/ti/ccs900/ccs/tools/compiler/ti-cgt-msp430_18.12.1.LTS/include/stdarg.h
+game.obj: E:\Users\Lonnie\\ II\Desktop\School\EmbeddedSoftware\embedded-software\include\subsystem.h
+game.obj: E:\Users\Lonnie\\ II\Desktop\School\EmbeddedSoftware\embedded-software\include\uart.h
+game.obj: E:\Users\Lonnie\\ II\Desktop\School\EmbeddedSoftware\embedded-software\include\task.h
+game.obj: E:\Users\Lonnie\\ II\Desktop\School\EmbeddedSoftware\embedded-software\include\timing.h
+game.obj: E:\Users\Lonnie\\ II\Desktop\School\EmbeddedSoftware\embedded-software\include\buffer_printf.h
+game.obj: E:\Users\Lonnie\\ II\Desktop\School\EmbeddedSoftware\embedded-software\include\buffer.h
+game.obj: E:/Users/Lonnie\\ II/Desktop/School/EmbeddedSoftware/embedded-software/hal/MSP430/MSP430FR5994/hal_uart.h
